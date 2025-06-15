@@ -1,0 +1,34 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "A **React** frontend with a **C# .NET backend**, enabling users to browse products, add them to a cart, and place orders.",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnkitaaPal/Ecommerce.git"
+  },
+  "keywords": [
+    "React",
+    "Javascript",
+    "Redux",
+    "CSS"
+  ],
+  "author": "Ankita Pal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnkitaaPal/Ecommerce/issues"
+  },
+  "homepage": "https://github.com/AnkitaaPal/Ecommerce#readme",
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserslist": [
+    "> 0.2%"]
+}
