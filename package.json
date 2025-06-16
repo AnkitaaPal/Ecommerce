@@ -4,7 +4,8 @@
   "description": "A **React** frontend with a **C# .NET backend**, enabling users to browse products, add them to a cart, and place orders.",
   "scripts": {
     "test": "jest",
-    "start": "parcel index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
@@ -26,9 +27,13 @@
     "parcel": "^2.15.2"
   },
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^7.1.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
   "browserslist": [
-    "> 0.2%"]
+    "> 0.2%"
+  ]
 }
