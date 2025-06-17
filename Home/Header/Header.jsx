@@ -1,8 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./Header.css";
-import Searchbar from "./Searchbar.jsx"
-
+import Searchbar from "./Searchbar.jsx";
 const Header = () => {
   return (
     <div className="headerComponent">
@@ -12,9 +11,10 @@ const Header = () => {
       <Searchbar />
       <nav className="navBar">
         <ul className="navList">
-          <li className="navItem"><a href="#signin">Sign in</a></li>
-          <li className="navItem"><a href="#wishlist">Wishlist</a></li>
-          <li className="navItem"><a href="#cart">Cart</a></li>
+          <li className="navItem">Home</li>
+          <li className="navItem">Sign in</li>
+          <li className="navItem">Wishlist</li>
+          <li className="navItem">Cart</li>
         </ul>
       </nav>
     </div>

@@ -1,0 +1,22 @@
+.menuComponent {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+.menuList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menuItem {
+    margin-right: 2em;
+    color: #343a40;
+    text-decoration: none;
+    font-size: 1.2em;
+}   

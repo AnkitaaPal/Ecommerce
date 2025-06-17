@@ -1,0 +1,7 @@
+.carouselComponent {
+    width: 100%;
+    height: 14em;
+    background-color: beige;
+    position: relative;
+    overflow: hidden;
+}
