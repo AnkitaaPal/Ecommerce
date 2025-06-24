@@ -1,23 +1,24 @@
 .headerComponent {
-  width: 97%;
+  width: 100vw;
   height: 5em;
   background-color: #0f1111;
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0 20px;
+  justify-content: space-between;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 3em;
+  height: 3em;
   display: flex;
   align-items: center;
 }
 
 .logoImage {
   width: 100%;
-  height: 100px;
+  height: 100%;
   object-fit: contain;
 }
 
@@ -33,9 +34,6 @@
   display: flex;
   flex-direction: row;
   list-style: none;
-  padding: 0;
-  margin: 5em;
-  align-items: center;
   text-decoration: none;
 }
 
@@ -47,4 +45,7 @@
 
 .navItem:last-child {
   margin-right: 0;
+}
+.navItem:hover {
+  cursor: pointer;
 }
